@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.container1 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(https://img.freepik.com/premium-photo/beautiful-colorful-modern-keyboard-with-rainbow-backlight_123211-1001.jpg?w=2000);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 90px;
+  display: none;
+}
+.main {
+  width: 50%;
+  height: 430px;
+  background-color: rgb(81, 94, 94);
+  margin: auto;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(https://storage.googleapis.com/fplswordpressblog/2022/07/online-quiz.jpg);
+  border: 2px dashed white;
+  cursor: pointer;
+  transition: 0.6s;
+  display: flex;
+  flex-direction: column;
+}
+.main:hover {
+  box-shadow: 0 0 20px white;
+}
+.inmain {
+  width: 90%;
+  height: 90px;
+  background-color: rgb(35, 36, 40);
+  border-radius: 10px;
+  margin: 20px auto;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: antiquewhite;
+  transition: 1s;
+}
+.fa-regular {
+  margin: 4px 20px;
+  font-size: 20px;
+  color: white;
+  transition: 1s;
+}
+.fa-regular:hover {
+  color: tomato;
+}
+
+.second1 {
+  width: 62%;
+  height: 400px;
+  margin: 20px auto;
+  display: flex;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://www.androidauthority.com/wp-content/uploads/2019/12/60-seconds-quiz-image.jpg);
+  justify-content: space-around;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 7px;
+  position: absolute;
+  display: none;
+  top: 12%;
+  left: 20%;
+}
+.second1 .insecond1 {
+  width: 35%;
+  height: 40%;
+  background-color: transparent;
+  border: 3px groove rgb(82, 109, 184);
+  background: left linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9));
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  transition: 1s;
+  position: relative;
+  cursor: pointer;
+}
+.second1 .insecond1:hover {
+  box-shadow: 0 0 10px wheat;
+  background-color: rgba(16, 92, 151, 0.98);
+}
+.second1 h2 {
+  position: absolute;
+  color: rgb(255, 255, 255);
+}
+.container1 .main .second {
+  width: 92%;
+  height: 200px;
+  margin: 20px auto;
+  display: flex;
+  background-color: rgb(35, 36, 40);
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 7px;
+}
+.container1 .main .second .insecond {
+  width: 35%;
+  height: 40%;
+  background-color: transparent;
+  border: 3px dashed rgb(3, 22, 73);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  transition: 1s;
+  position: relative;
+}
+.container1 .main .second .insecond:hover {
+  box-shadow: 0 0 10px wheat;
+  background-color: black;
+}
+.container1 .main .second h2 {
+  position: absolute;
+  color: white;
+}
+
+.inmain:hover {
+  box-shadow: 0 0 10px wheat;
+  background-color: black;
+  transform: scaleY(1.1);
+}
+.lessons {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(https://www.schoolofcodinguk.com/wp-content/uploads/2019/01/thought-bubble--1536x1067.jpg);
+  padding-top: 99px;
+  background-size: cover;
+}
+.lesson {
+  width: 40%;
+  height: 300px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(https://www.corporatecomplianceinsights.com/wp-content/uploads/2020/08/lesson.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 2px dashed white;
+  margin: auto;
+  padding-top: 39px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 1s;
+}
+.lessons .lesson button {
+  width: 70%;
+  height: 60px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}
+.lessons .lesson:hover {
+  box-shadow: 0px 0px 20px white;
+}
+.lessons .lesson button:hover {
+  background-color: black;
+  color: white;
+}
+.levels {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(lvs.jpg);
+  padding-top: 99px;
+  background-size: 100% 100%;
+  display: none;
+}
+.level {
+  width: 40%;
+  height: 300px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(https://learnenglishteens.britishcouncil.org/sites/teens/files/styles/custom_block_country_english_course/public/blurb_block/rs9105_gettyimages-1180593998-hig_0.jpg?itok=sCphYYtT);
+  margin: auto;
+  padding-top: 39px;
+  text-align: center;
+  opacity: 0.9;
+  border-radius: 10px;
+  margin-top: 30px;
+  border: 2px dashed rgb(202, 202, 207);
+}
+.levels .level button {
+  width: 70%;
+  height: 60px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}
+.levels .level button:hover {
+  background-color: black;
+  color: white;
+}
+.numbers {
+  width: 89%;
+  height: 9%;
+  background-color: rgb(35, 36, 40);
+  border-radius: 19px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.numbers button {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  border: none;
+  border: 1px dashed blue;
+  transition: 0.5s;
+}
+.numbers button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.fa-solid {
+  color: black;
+  transition: 0.5s;
+}
+.fa-solid:hover {
+  color: white;
+}
+.w3-red {
+  width: 40%;
+  height: 120px;
+  overflow: hidden;
+  text-align: center;
+}

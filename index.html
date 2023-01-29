@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.jpg" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="lessons">
+      <div class="lesson">
+        <button value="az">Az/dili</button>
+        <button value="riy">Riyaziyyat</button>
+        <button value="ing">Inglis/dili</button>
+      </div>
+    </div>
+
+    <div class="levels">
+      <div class="level">
+        <button>Easy</button>
+        <button>Middle</button>
+        <button>Difficult</button>
+      </div>
+    </div>
+
+    <div class="container1">
+      <div class="main">
+        <div class="inmain">
+          <i class="fa-regular fa-heart"></i>
+          <h2 id="sual"><span>1)</span></h2>
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <div class="second">
+          <div class="insecond">
+            <h3><span id="cavaba" class="cavablarim"></span></h3>
+          </div>
+          <div class="insecond">
+            <h3><span id="cavabb" class="cavablarim"></span></h3>
+          </div>
+          <h2 id="zaman">
+            <span id="deg">0</span> : <span id="san"> 00</span>
+          </h2>
+          <div
+            class="w3-panel w3-red"
+            style="position: absolute; z-index: 999; display: none"
+          >
+            <h3 id="over">Aferin!</h3>
+            <p id="failure">Sən hər şeyi bacaracagsan...</p>
+          </div>
+          <div class="insecond">
+            <h3><span id="cavabc" class="cavablarim"></span></h3>
+          </div>
+          <div class="insecond">
+            <h3><span id="cavabd" class="cavablarim"></span></h3>
+          </div>
+        </div>
+        <div class="numbers">
+          <button>
+            <i id="left_button" class="fa-solid fa-left-long"></i>
+          </button>
+          <button class="btns">1</button>
+          <button class="btns">2</button>
+          <button class="btns">3</button>
+          <button class="btns">4</button>
+          <button class="btns">5</button>
+          <button id="right_button">
+            <i class="fa-solid fa-right-long"></i>
+          </button>
+          <button style="font-size: 12px; width: 40px; height: 30px" id="finis">
+            finish
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="second1">
+      <div class="insecond1">
+        <h3>Duzgun cavablarin sayi:<span id="right-answer"></span></h3>
+      </div>
+      <div class="insecond1">
+        <h3>səhv cavablarin sayi:<span id="wrong-answer"></span></h3>
+      </div>
+      <div class="insecond1">
+        <h3>cavabsizlarin sayi:<span id="fifty"></span></h3>
+      </div>
+      <div class="insecond1">
+        <h3>Ümumi suallarin sayi:<span></span></h3>
+      </div>
+    </div>
+
+  <script src="./custom.js"></script>
+  </body>
+</html>
